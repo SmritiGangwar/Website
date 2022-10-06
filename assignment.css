@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Viga&display=swap');
+
+
+.header{
+    position:fixed;
+    top: 0;left: 0;right: 0;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+    display: inline;
+    position: relative;
+    left:-500px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    color: #fff;
+}
+
+.logo{
+    display: flex;
+    font-size: small;
+    letter-spacing: 0.2rem;
+    margin: 10px ;
+    margin-left: 100px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo div{
+    font-size: 1.9rem;
+    position: relative;
+    top: 20px;
+    right: 15px;
+    color: #29d9d5;
+}
+
+.navbar div{
+    display: inline;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    left:400px; 
+    top:-30px;
+    border: 2px solid #29d9d5;
+    border-radius: 20px;
+    background-color: black;
+    color: #29d9d5;
+    padding: 10px;
+   
+}
+
+.home{
+    margin-top: 110px;
+    /* display: block; */
+    align-items: center;
+    width: 1280px;
+}
+.home .photo-blog{
+    padding: 0.2rem;
+    padding-left: 2rem;
+    margin-left: 100px;
+    margin-right: 130px;
+    height: 80px;
+    width: 1280px;
+    background:rgb(253, 203, 211);
+    border-radius: 20px;
+}
+.home .photo-blog h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(27, 23, 142);
+    letter-spacing: 0.1rem;
+}
+
+.home .grid{
+    
+    margin: 0 0px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:0.5rem;
+}
+.home .grid .box{
+    
+    text-align: center;
+    padding:1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.home .grid img{
+    width: 400px;
+    height: 15rem;  
+    border-radius: 20px;
+}
+.home .grid img:hover{
+    filter: grayscale(0.9);
+
+}
+.body
+{
+    height: 250px;
+    width: 100%;
+    background: url(./images/journey.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(0.7);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.body .content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body .content p{
+    color: rgba(244, 235, 235,0.9);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.foot
+{
+    height: 200px;
+    width: 100%;
+    
+    background-color: black;
+}
+.foot h1{
+    color: aliceblue;
+}
+
+.foot p{
+    color: white;
+}
+.foot .share{
+    padding:1rem 0;
+}
+
+.foot .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:1px solid gray;
+    margin:.3rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.foot .share a:hover{
+    background-color: rgb(205, 205, 193);
+}
